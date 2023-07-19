@@ -2,7 +2,7 @@ var a_idx = 0;
 
 jQuery(document).ready(function($) {
 	$("body").click(function(e) {
-		var a = new Array("小王Fly","小王Bot","LiChen","小源151","Explorer_Chils","Leo","Hope解说","BadJui","0殺神在心0","Minecraft","我的世界","BSOD-SYSTEM","爱玩机的SYSTEM-QCX","乐乐QWQLL404","正在喝可乐的九月","DataCleaner");
+		var a = new Array("爱搞科技的子霖kids","zilinkids的qqBot","小王fly","XiaowangBot","清瑜","Hope解说","可乐","BadJui","python王","BSOD-SYSTEM","乱敲代码pro","爱搞机的学生","编程","手工","点赞","投币","收藏","加关注");
 		var $i = $("<span/>").text(a[a_idx]);
 		a_idx = (a_idx + 1) % a.length;
 		var x = e.pageX, y = e.pageY;
