@@ -96,6 +96,100 @@
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2020-2024 - <strong>Zilin kids the website</strong></div>
                             <!--   注释    <iframe src="http://zilinkids.github.io/html/subtitle.html" width="1215" height="100">    -->
+
+<style type="text/css">
+  .studytextgzbox {
+    background:   #F9F9F9; 
+    border: 1px solid #999999;
+    margin: 1px;
+    text-align:center;  
+    float: left;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    width: 236px;
+}
+  .hulikuled:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+@media (max-width: 768px){
+  .hulikuled{display: none;}
+}
+</style>
+
+<script type="text/javascript">
+    study_textgz_jQuery(function() {
+    var container = study_textgz_jQuery('#masonry');
+    container.imagesLoaded(function() {
+        container.masonry({
+itemSelector: '.studytextgzbox',
+gutter: 0,
+isAnimated: true,
+            });
+     });
+});
+</script>
+
+<div class="wp hulikuled"  style="margin-top:0px;">   
+<div style="background:url('https://img.alicdn.com/imgextra/i2/2210123621994/O1CN01vsOw3q1QbIiATHPkh_!!2210123621994.png'); text-align: center; height:80px; border: 0px solid #E8EFF5;border-radius: 8px;" >
+<div id="systimeshow" style="float: left;margin-top: 10px; font-weight:bolder; color:#FF0000;font-size:16px;font-family: '微软正黑体','黑体_GB2312','微软正黑体'; width: 130px;">
+</div>
+<script language="javascript">
+function getCurDate()
+{
+ var d = new Date();
+ var week;
+ switch (d.getDay()){
+ case 1: week="星期一"; break;
+ case 2: week="星期二"; break;
+ case 3: week="星期三"; break;
+ case 4: week="星期四"; break;
+ case 5: week="星期五"; break;
+ case 6: week="星期六"; break;
+ default: week="星期天";
+ }
+ var years = d.getFullYear();
+ var month = add_zero(d.getMonth()+1);
+ var days = add_zero(d.getDate());
+ var hours = add_zero(d.getHours());
+ var minutes = add_zero(d.getMinutes());
+ var seconds=add_zero(d.getSeconds());
+  
+ var ndate = years+"年"+month+"月"+days+"日"+"<br>"+hours+":"+minutes+":"+seconds+"&nbsp"+week+"&nbsp";
+          
+ var divT=document.getElementById("systimeshow"); 
+ divT.innerHTML= ndate;
+}
+function add_zero(temp)
+{
+ if(temp<10) return "0"+temp;
+ else return temp;
+}
+setInterval("getCurDate()",100);
+</script>
+ 
+             
+<div id="hulikuled_sx" style="width:auto;overflow:hidden;height:80px;line-height:80px;text-align:left;">
+<div id="hulikuled_sx1" > 
+
+<p style="padding:0px 10px 0px 16px;vertical-align:middle;height:80px;overflow:hidden;">
+<marquee direction="lelf" scrollamount="5"><strong>
+  <a>
+<span style="font-weight:900; color: #FF0000; font-size: 60px;line-height:56px;">欢迎进入ZilinKids The Website,在这里你可以观看我的博客内容，下载实用软件，快来使用吧！                      Welcome to ZilinKids The website, where you can read my blog content and download practical software. Come and use it!
+</span>
+</a>
+</strong></marquee>
+</p>
+</div>
+</div> 
+</div>
+</div>
+
+      
 </div>
       <script type="text/javascript" color="0,0,255" opacity='100.0' count="200" src="./js/canvas_nest.js"></script>
       <script src="./js/jquery.js"></script>
