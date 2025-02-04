@@ -1430,8 +1430,8 @@ function changePopMenu(popIndex) {
     }
 }
 
-if (document.getElementById('zilinkids.github.io')) {
-    document.getElementById('zilinkids.github.io').addEventListener('click', function() {
+if (document.getElementById('http://zilinkids.github.io')) {
+    document.getElementById('http://zilinkids.github.io').addEventListener('click', function() {
         let url = window.location.href;
         let index = url.indexOf("?");
         if (index !== -1) {
