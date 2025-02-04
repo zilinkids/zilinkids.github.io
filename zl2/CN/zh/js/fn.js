@@ -1432,7 +1432,7 @@ function changePopMenu(popIndex) {
 
 if (document.getElementById('copyURL')) {
     document.getElementById('copyURL').addEventListener('click', function() {
-        let url = http://zilinkids.github.io;
+        let url = 'http://zilinkids.github.io';
         if (parent_Node) {
             url = url +"P2PLiveAudience.html?id="+ parent_Node.peer +"&name=";
         } else {  // host or audience partly unloaded
