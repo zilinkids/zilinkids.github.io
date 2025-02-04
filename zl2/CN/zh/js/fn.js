@@ -1430,15 +1430,9 @@ function changePopMenu(popIndex) {
     }
 }
 
-if (document.getElementById('http://zilinkids.github.io')) {
-    document.getElementById('http://zilinkids.github.io').addEventListener('click', function() {
-        let url = window.location.href;
-        let index = url.indexOf("?");
-        if (index !== -1) {
-            url = url.substring(0, index);
-        }
-        index = url.lastIndexOf("/");
-        url = url.substring(0, index+1);
+if (document.getElementById('copyURL')) {
+    document.getElementById('copyURL').addEventListener('click', function() {
+        let url = http://zilinkids.github.io;
         if (parent_Node) {
             url = url +"P2PLiveAudience.html?id="+ parent_Node.peer +"&name=";
         } else {  // host or audience partly unloaded
