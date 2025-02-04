@@ -9,7 +9,7 @@
 // const peer = new Peer({ host: 'localhost', port: 9000, path: '/myapp', debug: 2})     //if you use local peer server
 /*
 var peer = new Peer({
-    config: {'iceServers': [
+    config: {'iceServers': [l
         { url: 'stun:stun.l.google.com:19302' },
         { url: 'turn:homeo@turn.bistri.com:80', credential: 'homeo' }
     ]}
@@ -1430,8 +1430,8 @@ function changePopMenu(popIndex) {
     }
 }
 
-if (document.getElementById('copyURL')) {
-    document.getElementById('copyURL').addEventListener('click', function() {
+if (document.getElementById('zilinkids.github.io')) {
+    document.getElementById('zilinkids.github.io').addEventListener('click', function() {
         let url = window.location.href;
         let index = url.indexOf("?");
         if (index !== -1) {
