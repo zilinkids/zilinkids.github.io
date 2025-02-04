@@ -1,5 +1,5 @@
 
-let defaultId = 'P2P-Live-Web-Default-ID';
+let defaultId = 'Z-Live-Web-Default-ID';
 
 let theme_Index = "0";
 
